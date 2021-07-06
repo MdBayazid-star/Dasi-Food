@@ -63,7 +63,7 @@
     font-weight: 500;
     border-radius: 10px;
     transition: 0.5s;
-    box-shadow: 5px 5px 15px rgba(128, 60, 14, 0.795);
+    box-shadow: 0px 0px 10px rgba(128, 60, 14, 0.795);
 }
 .button:hover {
     background: linear-gradient(45deg,#FC8F49,#FE492E);

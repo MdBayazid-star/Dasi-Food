@@ -9,12 +9,16 @@
 }
 /* Header Start */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 60px;
-    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background: #FFF;
 }
 .header__icon a img {
     width: 40px;
@@ -33,6 +37,8 @@
 }
 .header__icon span {
     color: #FE492E;
+    font-family: cursive;
+    font-weight: 800;
 }
 .header__nav ul {
     display: block;
@@ -68,12 +74,16 @@
 .button:hover {
     background: linear-gradient(45deg,#FC8F49,#FE492E);
 }
+.btn {
+    margin-right: 20px;
+}
 /* Header End*/
 /* Home section Start */
 .home__section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 60px;
 }
 .home__section-content {
     width: 95%;
@@ -87,11 +97,13 @@
 }
 .home__section-content h1 span {
     color: #FE492E;
+    font-family: cursive;
 }
 .home__section-content p {
     font-size: 30px;
     color: #828282;
     padding: 20px 0;
+    margin-bottom: 40px;
 }
 .home__section-img img {
     width: 700px;
@@ -124,7 +136,8 @@
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 3px;
-    color: #707070;
+    color: #FE492E;
+    font-family: 'Montserrat', sans-serif;
 }
 .about__section-content p {
     font-size: 24px;
@@ -142,7 +155,8 @@
 .menu__section-title h1 {
     font-size: 50px;
     margin-top: 75px;
-    color: #707070;
+    color: #FE492E;
+    font-family: 'Montserrat', sans-serif;
 }
 .menu__section-title p {
     font-size: 25px;
@@ -158,7 +172,7 @@
 .menu__section-card1, 
 .menu__section-card2, 
 .menu__section-card3 {
-    width: 380px;
+    width: 400px;
     height: 700px;
     box-shadow: 0px 0px 40px  rgba(0, 0, 0, 0.2);
     border-radius: 18px;
@@ -179,23 +193,41 @@
 }
 .card__content h1 {
     font-size: 27px;
-    color: #000;
+    color: #FE492E;
     font-weight: 500;
     margin-top: -40px;
+}
+.card__content span {
+    text-align: center;
+    color: #FC8F49;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
 }
 .menu__section-title .card__content p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0;
 }
+.menu__section-title .card__content .price del {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: -70px;
+} 
+.menu__section-title .card__content .price {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #FE492E;
+} 
 .menu__section-title .card__content .card__text-margin1 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .menu__section-title .card__content .card__text-margin2 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .menu__section-title .card__content .card__text-margin3 {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 /* Menu section End */
 /* Expert section start */
@@ -203,8 +235,9 @@
     text-align: center;
     font-weight: 800;
     font-size: 50px;
-    color: #707070;
+    color: #FE492E;
     margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
 }
 .expert__section p {
     text-align: center;
@@ -241,10 +274,15 @@
     border-radius: 20px;
 }
 .expart__Bio h3 {
-    color: #000;
+    color: #FE492E;
     font-size: 30px;
     /* margin-left: 64px; */
     text-align: center;
+}
+.expart__Bio .exrerence {
+    text-align: center;
+    font-size: 22px;
+    color: #707070;
 }
 /* Expert section End */
 /* Customer section Start */
@@ -255,8 +293,9 @@
 .customer__section-title {
     font-size: 50px;
     font-weight: 800;
-    color: #707070;
+    color: #FE492E;
     margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 .customer__section-subtitle {
     font-size: 25px;
@@ -271,7 +310,7 @@
     width: 100%;
 }
 .review {
-    width: 400px;
+    width: 380px;
     height: 550px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -286,22 +325,26 @@
 }
 .review h4 {
     font-size: 25px;
-    color: #514F52;
+    color: #FE492E;
     font-weight: 700;
     text-align: center;
 }
 .review h5 {
     font-size: 18px;
-    color: #707070;
+    color: #FC8F49;
     font-weight: 500;
     text-align: center;
 }
 .review p {
     padding: 10px 30px;
     margin-bottom: 30px;
+    color: #707070;
 }
 .review a {
-    margin: 0px 30%;
+    margin: 0px 25%;
+}
+.secend__customar p {
+    margin-bottom: 10px;
 }
 /* Customer section End */
 /* Folower Start */
@@ -318,8 +361,10 @@
 }
 .folower h1{
     font-size: 40px;
-    color: #000;
+    color: #FE492E;
     font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 .folower p{
     font-size: 20px;
@@ -340,6 +385,7 @@
 }
 .fotter h2 span {
     color: #FE492E;
+    font-family: cursive;
 }
 
 .fotter p {

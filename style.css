@@ -62,13 +62,14 @@
 }
 .button {
     text-decoration: none;
-    padding: 12px 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 32px;
     background: linear-gradient(45deg, #FE492E,#FC8F49);
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.10s;
     box-shadow: 0px 0px 10px rgba(128, 60, 14, 0.795);
 }
 .button:hover {
@@ -115,21 +116,21 @@
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    background: linear-gradient(rgba(255, 244, 237, 0.301),rgba(255, 244, 237, 0.301)), url(img/Frame\ 58.jpg);
+    background: url(img/7.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 800px;
     margin-top: 100px;
 }
 .about__section-img img {
-    width: 500px;
-    height: 600px;
+    width: 600px;
+    height: 700px;
     margin-top: 100px;
     margin-left: 180px;
 }
 .about__section-content {
-    width: 100%;
+    width: 90%;
     padding: 150px;
 }
 .about__section-content h1 {
@@ -141,10 +142,10 @@
 }
 .about__section-content p {
     font-size: 24px;
-    color: #514F52;
+    color: #707070;
     font-weight: 500;
-}
-.about__section-content p {
+    letter-spacing: 1px;
+    line-height: 40px;
     margin: 30px 0;
 }
 /* About section End */
@@ -179,8 +180,8 @@
     margin-top: -60px;
 } 
 .card__img img {
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 320px;
     border-radius: 18px;
     margin-top: 30px;
 }
@@ -221,13 +222,13 @@
     color: #FE492E;
 } 
 .menu__section-title .card__content .card__text-margin1 {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .menu__section-title .card__content .card__text-margin2 {
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 .menu__section-title .card__content .card__text-margin3 {
-    margin-bottom: 48px;
+    margin-bottom: 49px;
 }
 /* Menu section End */
 /* Expert section start */
@@ -251,7 +252,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
+    height: 900px;
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)) ,url(img/bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
